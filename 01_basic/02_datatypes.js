@@ -24,3 +24,14 @@ let isLoggedIn= false
 console.log(typeof "klhasf") 
 console.log(typeof null); //type is object
 console.log(typeof undefined); // type is undefined
+
+
+//Datatypes summery
+/*
+Primitive: 7 types
+String, number,boolean, null, undefined, Symbol, BigInt
+
+
+Reference/ non-primitive:
+arrays, objects, functions 
+*/
