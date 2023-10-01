@@ -27,13 +27,21 @@ let myCreatedDate= new Date(2023, 0, 23)  // writing format(year, month, date); 
 console.log(myCreatedDate.toDateString());
 
 let myTimestamp= Date.now()
-console.log(myTimestamp);  //this is the time in miliseconds, starting for 1st January 12Am till the very moment
-console.log(Date.now()/1000);  // to convert it to seconds
-console.log(Math.floor(Date.now()/1000));  //to avoid the digits after decimal
+// console.log(myTimestamp);  //this is the time in miliseconds, starting for 1st January 12Am till the very moment
+// console.log(Date.now()/1000);  // to convert it to seconds
+// console.log(Math.floor(Date.now()/1000));  //to avoid the digits after decimal
 
 
 let newDate = new Date()
-console.log(newDate);
-console.log(newDate.getDate());
-console.log(newDate.getDay());
+// console.log(newDate);
+// console.log(newDate.getDate());
+// console.log(newDate.getDay());
+// console.log(newDate.getMonth());
 
+
+
+
+
+newDate.toLocaleString('default', {
+    weekday: "long"
+})
