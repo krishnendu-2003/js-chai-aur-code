@@ -8,7 +8,7 @@ tinderUser.id = "123abc"
 tinderUser.name = "Krish"
 tinderUser.isLoggedIn = false
 
-// console.log(tinderUser);
+console.log(tinderUser);
 
 //objects ke andar object
 
@@ -34,5 +34,31 @@ const obj2= {
 }
 //Merging obj1 and obj2
 // const obj3= {obj1,obj2}
-const obj3 = Object.assign({},obj1, obj2)
-console.log(obj3);
+// const obj3 = Object.assign({},obj1, obj2)
+const obj3 = {...obj1, ...obj2}
+// console.log(obj3);
+
+//Fteching values from database
+const users= [
+    {
+        id: 1,
+        email: "sdkhf@gmail.com"
+    },
+    {
+        id: 2,
+        email: "aworj@gmail.com"
+    },
+    {
+        id: 3,
+        email: "manfjb@gmail.com"
+    }
+]
+
+users[1].email
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); //to check if the object has a value
+
+console.log(users);
