@@ -14,7 +14,7 @@ function one(){
 
     function two(){
         const website = "github.com"
-        console.log(userName);
+        // console.log(userName);
 
     }
     // console.log(website);
@@ -26,7 +26,7 @@ if(true){
     const userName2 = "Krishnendu"
     if(userName2 === "Krishnendu"){
         const website2 = " Youtube"
-        console.log(userName2 + website2);
+        // console.log(userName2 + website2);
     }
     // console.log(website2);  //error
 }
@@ -34,3 +34,14 @@ if(true){
 
 
 //+++++++++++++++++++++++++++ interesting ++++++++++++++++++++++++++++++
+
+console.log(addone(5))
+function addone(num){
+    return num +1
+}
+
+
+const addTwo = function(num){
+    return num +2
+}
+console.log(addTwo(5))
