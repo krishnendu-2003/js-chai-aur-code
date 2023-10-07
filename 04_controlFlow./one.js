@@ -55,3 +55,18 @@ const loggedInFromMeta = false
 if (loggedInFromEmail || loggedInFromGoogle || loggedInFromMeta) {
     console.log("User can log in");
 }
+
+
+
+// Nullish Coalescing Operator (??): null undefined
+
+let val;
+val = 5 ?? 10
+console.log(val);
+
+val = null ?? 4
+console.log(val);
+
+val = undefined ?? 13
+console.log(val);
+
