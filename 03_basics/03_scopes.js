@@ -20,4 +20,17 @@ function one(){
     // console.log(website);
     two()
 }
-one()
+// one()
+
+if(true){
+    const userName2 = "Krishnendu"
+    if(userName2 === "Krishnendu"){
+        const website2 = " Youtube"
+        console.log(userName2 + website2);
+    }
+    // console.log(website2);  //error
+}
+// console.log(userName2);  //error
+
+
+//+++++++++++++++++++++++++++ interesting ++++++++++++++++++++++++++++++
