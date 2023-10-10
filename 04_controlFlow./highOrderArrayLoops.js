@@ -36,8 +36,8 @@ const myObj = {
     'game1': 'NFS',
     'game2' : 'Kgf'
 }
-for (const [key, value] of myObj) {
+// for (const [key, value] of myObj) {
     // console.log(key, ":", value);
     
-}
+// }
 /* Hence can be concluded that maps are iterable*/
