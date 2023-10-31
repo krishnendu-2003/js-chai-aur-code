@@ -24,11 +24,13 @@
      
         clearTimeout(display)
         console.log("Stopped");
+        display = null;
 
     })
     document.querySelector('#start').addEventListener('click', function(){
+        if(!display){
         display = setInterval(sayDate, 1000, "Hi")
-        console.log(display);
+        console.log(display);}
     })
     
 
